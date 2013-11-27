@@ -1,0 +1,26 @@
+body {
+  direction: ltr;
+  text-align: left;
+  background-image: url(../img/ltr/bg.png);
+  background-position: left top;
+  line-height: 18px;
+}
+
+#container {
+  float: left;
+  line-height: 52px;
+  padding: 1px 2px 3px 0;
+}
+
+#sidebar {
+  float: right;
+  margin-left: 50px;
+}
+
+.next {
+  content: ">";
+}
+
+.br {
+  border-radius: 0 0 25px 0;
+}

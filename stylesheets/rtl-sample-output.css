@@ -1,0 +1,29 @@
+body {
+  direction: rtl;
+  text-align: right;
+  background-image: url(../img/rtl/bg.png);
+  background-position: right top;
+  line-height: 22px;
+}
+body h1 {
+  line-height: 25px;
+}
+
+#container {
+  float: right;
+  line-height: 30px;
+  padding: 1px 0 3px 2px;
+}
+
+#sidebar {
+  float: left;
+  margin-right: 50px;
+}
+
+.next {
+  content: "<";
+}
+
+.br {
+  border-radius: 0 0 0 25px;
+}
