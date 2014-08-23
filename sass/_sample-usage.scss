@@ -1,16 +1,10 @@
-// Choose your site direction. LTR or RTL?
-$text-direction: ltr;
-
-// We equal $text-direction to $dir, you can use both of them in your code
-@import "direction-controller";
-
 body {
     direction: $text-direction;
-    text-align: $left;
+    text-align: $start;
 
     // For different image in your code, you can use this solution. Use
-    background-image: url(../img/#{$dir}/bg.png);
-    background-position: $left top;
+    background-image: url(../img/#{$text-direction}/bg.png);
+    background-position: $start top;
 
 	@include if-ltr {
 		line-height: 18px;
@@ -24,14 +18,14 @@ body {
 }
 
 #container {
-    float: $left;
+    float: $start;
     line-height: dir-check(52px, 30px);
     padding: dir-values(1px 2px 3px 0);
 }
 
 #sidebar {
-    float: $right;
-    margin-#{$left}: 50px;
+    float: $end;
+    margin-#{$start}: 50px;
 }
 .next {
 	content: dir-check('>', '<');
