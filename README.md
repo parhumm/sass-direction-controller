@@ -41,6 +41,9 @@ Read details on this article(Persian): http://parhum.net/blog/ui/sass-direction-
 
 # Changelog
 
+### 1.0.1
+* Add bower.json and register it to bower library.
+
 ### 1.0.0
 * Add `$default-float` & `$opposite-direction` variables to can change base Sass structure for LTR / RTL. Default structure is for `LTR` languages
 
