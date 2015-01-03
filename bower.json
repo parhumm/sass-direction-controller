@@ -1,6 +1,7 @@
 {
   "name": "sass-direction-controller",
   "version": "1.0.1",
+  "main": "sass/_direction-controller.scss",
   "ignore": [
   ],
   "private": false
