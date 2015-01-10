@@ -41,6 +41,9 @@ Read details on this article(Persian): http://parhum.net/blog/ui/sass-direction-
 
 # Changelog
 
+### 1.0.2
+* Add main file to bower.json.
+
 ### 1.0.1
 * Add bower.json and register it to bower library.
 
