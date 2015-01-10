@@ -1,7 +1,0 @@
-img
-stylesheets
-.gitattributes
-.gitignore
-sass/_sample-usage.scss
-sass/output-ltr.scss
-sass/output-rtl.scss
